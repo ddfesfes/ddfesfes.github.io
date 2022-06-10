@@ -1,0 +1,8 @@
+#vscode
+.vscode/
+
+#modules
+node_modules/
+
+#original-source
+dist/
