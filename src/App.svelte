@@ -23,7 +23,7 @@
   let userBrowserLang = navigator.language;
   if (userBrowserLang.includes('-')) userBrowserLang = userBrowserLang.split('-')[0];
 
-  if (!locales.includes(userBrowserLang)) alert("this website doesn't support your language.");
+  if (!locales.includes(userBrowserLang)) userBrowserLang = 'en';
 
   $locale = userBrowserLang;
 </script>
